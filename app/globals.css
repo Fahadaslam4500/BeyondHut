@@ -22,7 +22,7 @@
 
 @layer base {
   p {
-    @apply tracking-tight font-inter;
+     @apply tracking-tight font-dm_sans;
   }
   :root {
     --background: 0 0% 100%;
@@ -319,15 +319,14 @@
 
 
 
-
 .marquee-container {
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
+  width: 100%; /* make sure it stretches full width */
 }
 
 .marquee-track {
-  display: inline-flex;
+  display: flex;  /* instead of inline-flex */
   animation: scroll-left 20s linear infinite;
 }
 

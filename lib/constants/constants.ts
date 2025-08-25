@@ -1,9 +1,10 @@
 
 export const navLinks = [
     { name: "Home", url: "/" },
-    { name: "Sales Systems", url: "/sales-systems" },
+    // { name: "Sales Systems", url: "/sales-systems" },
     { name: "Job Seekers", url: "/job-seekers" },
-    { name: "Real Estate", url: "/real-estate" },
+    { name: "Pricing", url: "/pricing" },
+    // { name: "Real Estate", url: "/real-estate" },
     { name: "About Us", url: "/about-us" },
     { name: "Blogs", url: "/blogs" },
   ];

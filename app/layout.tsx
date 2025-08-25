@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { DM_Sans, Inter } from "next/font/google";
 import localfont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/global/header";
@@ -20,9 +20,9 @@ const RocaLight = localfont({
   variable: "--font-rocathin",
 });
 
-const inter = Inter({
+const dm_sans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-dm_sans",
   display: "swap",
 });
 
@@ -100,7 +100,7 @@ export default function RootLayout({
       />
 
       <body
-        className={`${inter.variable} ${Roca.variable} ${RocaLight.variable} antialiased bg-white`}>
+        className={`${dm_sans.variable} ${Roca.variable} ${RocaLight.variable} antialiased bg-white`}>
         <ClerkProvider>
           <Header />
           <Toaster />

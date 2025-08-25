@@ -8,7 +8,7 @@ import React from 'react'
 function CTAabout() {
     return (
         <div className='container my-12'>
-            <div className='bg-white shadow-lg relative shadow-gray-200 max-lg:min-h-[60vh] min-h-[450px] p-5  flex md:flex-row flex-col space-y-10 justify-center items-center md:rounded-[50px] rounded-[30px] overflow-hidden'>
+            <div className=' relative max-lg:min-h-[60vh] min-h-[450px] p-5  flex md:flex-row flex-col space-y-10 justify-center items-center md:rounded-[50px] rounded-[30px] overflow-hidden'>
 
 
                 <div className='flex flex-col justify-center items-start w-full relative z-[20] md:max-w-[50%]'>

@@ -1,13 +1,11 @@
 import BlogsSection from '@/components/pages/Home/BlogsSections'
-import CutFire from '@/components/pages/Home/CutFire'
-import FullServices from '@/components/pages/Home/FullServices'
-import GrowthPuzzle from '@/components/pages/Home/GrowthPuzzle'
+import FourSteps from '@/components/pages/Home/FourSteps'
 import HomeHero from '@/components/pages/Home/Hero'
-import HybridScrollSection from '@/components/pages/Home/HybridScrollSection'
+import Logos_Sliding from '@/components/pages/Home/Logos_Sliding'
+import ProfitableAgency from '@/components/pages/Home/ProfitableAgency'
+import RolesSection from '@/components/pages/Home/RolesSection'
 import StartWithUs from '@/components/pages/Home/StartWithUs'
-import TalentWithoutHussle from '@/components/pages/Home/TalentWithoutHussle'
-import WhatWeDo from '@/components/pages/Home/WhatWeDo'
-import WhyChoose from '@/components/pages/Home/WhyChoose'
+import Testimonials_New from '@/components/pages/Home/Testimonials_New'
 import React from 'react'
 
 
@@ -15,13 +13,13 @@ function Home() {
   return (
     <div className='overflow-hidden'>
       <HomeHero/>
-      <TalentWithoutHussle/>
-      <CutFire/>
-      <WhatWeDo/>
-      <HybridScrollSection/>
-      <GrowthPuzzle/>
-      <FullServices/>
-      <WhyChoose/>
+      {/* <FallingTags/> */}
+      <ProfitableAgency/>
+      <RolesSection/>
+      
+      <Logos_Sliding/>
+      <Testimonials_New/>
+      <FourSteps/>
       <BlogsSection/>
       <StartWithUs/>
     </div>

@@ -7,7 +7,7 @@ import React from 'react'
 function CTAJobSeekers() {
     return (
         <div className='container my-12'>
-            <div className='bg-white shadow-lg relative shadow-gray-200 max-lg:min-h-[60vh] min-h-[450px] p-5  flex flex-col justify-center items-center md:rounded-[50px] rounded-[30px] overflow-hidden'>
+            <div className='bg-white relative max-lg:min-h-[60vh] min-h-[450px] p-5  flex flex-col justify-center items-center md:rounded-[50px] rounded-[30px] overflow-hidden'>
 
 
                 <div className='flex flex-col justify-center items-center w-full relative z-[20]'>
