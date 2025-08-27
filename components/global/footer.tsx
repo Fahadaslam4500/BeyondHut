@@ -117,7 +117,7 @@ const Footer = () => {
 
                     {/* Second Column - Links */}
                     <div className='col-span-1 md:col-span-2 self-start'>
-                        <h3 className="text-lg font-semibold mb-4 text-white font-roca">Our Target Industry</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-white font-dm_serif">Our Target Industry</h3>
                         <ul className="space-y-3">
                             {
                                 footerLinks1.map((link, i) => (
@@ -136,7 +136,7 @@ const Footer = () => {
 
                     {/* Third Column - Links */}
                     <div className='col-span-1 md:col-span-2 self-start'>
-                        <h3 className="text-lg font-semibold mb-4 text-white font-roca">Target Organizations</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-white font-dm_serif">Target Organizations</h3>
                         <ul className="space-y-3">
                             {
                                 footerLinks2.map((link, i) => (
@@ -152,7 +152,7 @@ const Footer = () => {
 
                     <FadeInLeft distance={20} duration={1} once={false}>
 
-                        <p className='text-white font-rocathin'>© 2025 Beyond Hut. Copyright and rights reserved</p>
+                        <p className='text-white font-dm_serifthin'>© 2025 Beyond Hut. Copyright and rights reserved</p>
                     </FadeInLeft>
 
                     <FadeInTop duration={1} once={false}>

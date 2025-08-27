@@ -12,7 +12,7 @@ function CTAJobSeekers() {
 
                 <div className='flex flex-col justify-center items-center w-full relative z-[20]'>
                     <div className='w-full mt-14 mb-10 flex flex-col gap-3'>
-                            <h2 className="fade-in-up font-roca text-2xl text-center md:text-[40px] font-thin mb-3">Let’s get you Hired</h2>
+                            <h2 className="fade-in-up font-dm_serif text-2xl text-center md:text-[40px] font-thin mb-3">Let’s get you Hired</h2>
                    
                         <p className='mt-1 text-center  text-xl text-[#516371]'>No more black holes. No more ghosting. No more guessing</p>
                         <p className='mt-1 text-center font-semibold  text-xl text-[#516371]'>Just Good Work With Good People</p>

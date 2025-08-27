@@ -9,7 +9,7 @@ function BeyondFlow() {
             <div className='bg-white max-lg:min-h-[60vh]  md:px-12 md:py-10 md:p-8 p-1 pb-10  flex flex-col justify-center items-center relative overflow-hidden '>
                 <div className='w-full md:max-w-[70%] mt-4 mb-4'>
                     <FadeInTop once={false} duration={0.6} distance={30}>
-                        <h2 className="font-roca text-2xl md:text-4xl font-thin text-center mb-3">The Beyond Hut Flow</h2>
+                        <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center mb-3">The Beyond Hut Flow</h2>
                     </FadeInTop>
                     <p className='mt-1 text-center  text-lg text-[#516371]'>By putting your customers at the center of your company’s sales strategy achieving <br className='hidden lg:flex'/> sustainable organic growth.</p>
                 </div>
@@ -17,7 +17,7 @@ function BeyondFlow() {
 
                 <div className='flex flex-row justify-around items-center w-full'>
                     <div className='flex flex-col justify-start items-start px-2'>
-                        <h4 className='text-xl md:text-2xl font-roca'>Strategy <span className='hidden'>that Scales</span></h4>
+                        <h4 className='text-xl md:text-2xl font-dm_serif'>Strategy <span className='hidden'>that Scales</span></h4>
                         <p className='text-sm md:text-lg md:max-w-[300px] max-w-[170px]'>Optimized custom roadmap for growth</p>
                     </div>
                     <img src='/assets/new/beyondflow1.png' alt='talent acquisition' className='w-[160px] md:w-[400px]' />
@@ -26,7 +26,7 @@ function BeyondFlow() {
 
                 <div className='flex flex-row-reverse justify-around items-center w-full gap-1 px-2'>
                     <div className='flex flex-col justify-start items-start'>
-                        <h4 className='text-xl md:text-2xl font-roca'>Automation</h4>
+                        <h4 className='text-xl md:text-2xl font-dm_serif'>Automation</h4>
                         <p className='text-sm md:text-lg md:max-w-[300px] max-w-[170px]'>Proven Lean systems that eliminate repetitive tasks</p>
                     </div>
                     <img src='/assets/new/beyondflow2.png' alt='talent acquisition' className='w-[160px] md:w-[400px]' />
@@ -36,7 +36,7 @@ function BeyondFlow() {
 
                 <div className='flex flex-row md:justify-around justify-center items-center w-full gap-1 px-2'>
                     <div className='flex flex-col justify-start items-start'>
-                        <h4 className='text-xl md:text-2xl font-roca'>Execution</h4>
+                        <h4 className='text-xl md:text-2xl font-dm_serif'>Execution</h4>
                         <p className='text-sm md:text-lg md:max-w-[300px] max-w-[170px]'>Our trained team delivers outreach, manages tools, and keeps your pipeline moving</p>
                     </div>
                     <img src='/assets/new/beyondflow3.png' alt='talent acquisition' className='w-[160px] md:w-[400px]' />
@@ -45,7 +45,7 @@ function BeyondFlow() {
 
                 <div className='flex flex-row-reverse justify-around items-center w-full gap-1 px-2'>
                     <div className='flex flex-col justify-start items-start'>
-                        <h4 className='text-xl md:text-2xl font-roca'>Optimization</h4>
+                        <h4 className='text-xl md:text-2xl font-dm_serif'>Optimization</h4>
                         <p className='text-sm md:text-lg md:max-w-[300px] max-w-[170px]'>We track what’s working, refine what isn’t, and scale what converts</p>
                     </div>
                     <img src='/assets/new/beyondflow4.png' alt='talent acquisition' className='w-[160px] md:w-[400px]' />

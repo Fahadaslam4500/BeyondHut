@@ -25,7 +25,7 @@ function MoreThanResume() {
             <div className='container max-lg:min-h-[60vh]  md:px-12 md:py-10 md:p-8 p-1  flex flex-col justify-center items-center relative overflow-hidden'>
                 <div className='w-full md:max-w-[70%] mt-4 mb-4'>
                     <FadeInTop once={false} duration={0.6} distance={30}>
-                        <h2 className="font-roca text-2xl md:text-4xl font-thin text-center mb-3">You’re More Than a Resume.</h2>
+                        <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center mb-3">You’re More Than a Resume.</h2>
                     </FadeInTop>
                     <p className='mt-1 text-center  text-lg text-[#516371]'>Other platforms automate you into a stack.<br />
                         We start by understanding you</p>
@@ -36,20 +36,20 @@ function MoreThanResume() {
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                         <div className=' ccol-span-1 bg-[#EBFAFF] min-h-[210px] rounded-2xl md:max-w-[320px] min-w-[280px] flex flex-col justify-between items-start p-4'>
                             <div className='bg-[#FFE2B7] px-3 py-1 rounded-full'>First</div>
-                            <h4 className='text-2xl font-roca'>How you <br /> work</h4>
+                            <h4 className='text-2xl font-dm_serif'>How you <br /> work</h4>
                         </div>
                         <div className='col-span-1 bg-[#EBFAFF] min-h-[210px] rounded-2xl md:max-w-[300px] min-w-[280px] flex flex-col justify-between items-start p-4'>
                             <div className='bg-[#C9E5FF] px-3 py-1 rounded-full'>Second</div>
-                            <h4 className='text-2xl font-roca'>What you’re<br /> great at</h4>
+                            <h4 className='text-2xl font-dm_serif'>What you’re<br /> great at</h4>
                         </div>
                         <div className='col-span-1 bg-[#EBFAFF] min-h-[210px] rounded-2xl md:max-w-[300px] min-w-[280px] flex flex-col justify-between items-start p-4'>
                             <div className='bg-[#B5F1D8] px-3 py-1 rounded-full'>Third</div>
-                            <h4 className='text-2xl font-roca'>The environment<br />  where you thrive</h4>
+                            <h4 className='text-2xl font-dm_serif'>The environment<br />  where you thrive</h4>
                         </div>
                     </div>
 
                     <div className='w-full bg-[#F1F0FE] p-4 flex flex-col md:flex-row gap-4 justify-between items-center rounded-2xl'>
-                        <h4 className='text-2xl font-roca max-md:self-start'>
+                        <h4 className='text-2xl font-dm_serif max-md:self-start'>
                             Always <br className='hidden md:flex'/> expanding
                         </h4>
                         <p className='text-base'>10 people. 100 people. 1,000. <br />

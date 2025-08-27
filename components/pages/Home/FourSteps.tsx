@@ -31,9 +31,10 @@ export default function FourSteps() {
         <div className="w-full bg-[#F3FBFE] py-32 my-20">
             <section className="container">
 
-                <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="text-center my-7 text-3xl font-roca md:text-4xl font-bold text-[#1B1B1B]">
-                    How We Get You Started In Just 4 Simple Steps.
+                <TextAnimate animation="blurInUp" by="word" as={'h2'} duration={0.8} className="text-center text-3xl font-dm_serif md:text-4xl font-medium text-[#1B1B1B]">
+                    How We Get You Started In Just 
                 </TextAnimate>
+                <h2 className="text-center my-3 mb-8 text-3xl font-dm_serif md:text-4xl font-bold text-gradient">4 Simple Steps.</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 relative">
                     {steps.map((step, index) => (
@@ -47,7 +48,7 @@ export default function FourSteps() {
                         ease: "linear",
                     }}
                             key={index}
-                            className="flex flex-col items-start text-center px-4 relative font-dm_sans"
+                            className="flex flex-col items-start text-center px-4 relative font-dm_serif"
                         >
                             <div className="w-[80px] h-[80px] mb-4 relative">
                                 <Image
@@ -62,13 +63,13 @@ export default function FourSteps() {
 
                             {/* Arrows between steps (desktop only) */}
                             {index < steps.length - 1 && (
-                                <div className="hidden md:block absolute top-1/3 right-[-40px]">
+                                <div className=" block absolute md:top-1/3 md:right-[-40px] max-sm:rotate-90 max-sm:left-[30%] max-sm:top-[120%]">
                                     <Image
                                         src="/assets/redesign/arrow1.png"
                                         alt="arrow"
                                         width={100}
                                         height={100}
-                                        className={index === 1 ? "scale-y-[-1]" : ""} // 🔥 Flip only 2nd arrow
+                                        className={index === 1 ? "scale-y-[-1]" : ""} 
                                     />
                                 </div>
                             )}

@@ -12,7 +12,7 @@ function CTARealEstate() {
 
                 <div className='flex flex-col justify-center items-center w-full relative z-[20]'>
                     <div className='w-full mt-14 mb-10 flex flex-col gap-3'>
-                            <h2 className="fade-in-up font-roca text-2xl text-center md:text-[40px] font-thin mb-3 leading-9">Ready to Build Your Remote Estate <br/> Agency Team?</h2>
+                            <h2 className="fade-in-up font-dm_serif text-2xl text-center md:text-[40px] font-thin mb-3 leading-9">Ready to Build Your Remote Estate <br/> Agency Team?</h2>
                    
                         <p className='mt-1 text-center  text-xl text-[#516371]'>Keep your agency agile without the staffing hassle.</p>
                     </div>

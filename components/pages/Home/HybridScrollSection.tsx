@@ -108,7 +108,7 @@
 
 //       <div className="container max-lg:min-h-[60vh] relative md:rounded-[50px] rounded-[30px] overflow-hidden">
 //         <FadeInRight once={false} duration={0.8} distance={30}>
-//           <h2 className="mx-auto font-roca text-2xl md:text-4xl font-thin text-center pt-16 p-2">
+//           <h2 className="mx-auto font-dm_serif text-2xl md:text-4xl font-thin text-center pt-16 p-2">
 //             Why teams choose BeyondHut?
 //           </h2>
 //         </FadeInRight>
@@ -135,7 +135,7 @@
 //                     <Image src={card.image} alt={card.title} width={80} height={100} unoptimized />
 //                   </div>
 //                 )}
-//                 <p className="mb-2 font-roca md:text-3xl text-2xl text-black" dangerouslySetInnerHTML={{ __html: card.title }} />
+//                 <p className="mb-2 font-dm_serif md:text-3xl text-2xl text-black" dangerouslySetInnerHTML={{ __html: card.title }} />
 //                 <p className="text-black text-base" dangerouslySetInnerHTML={{ __html: card.paragraph }} />
 //               </div>
 //             ))}
@@ -284,7 +284,7 @@ const HybridScrollSection: React.FC<Props> = ({ cards = cardData }) => {
 
       <div className="container max-lg:min-h-[60vh] relative md:rounded-[50px] rounded-[30px] overflow-hidden">
         <FadeInRight once={false} duration={0.8} distance={30}>
-          <h2 className="mx-auto font-roca text-2xl md:text-4xl font-thin text-center pt-16 p-2">
+          <h2 className="mx-auto font-dm_serif text-2xl md:text-4xl font-thin text-center pt-16 p-2">
             Why teams choose BeyondHut?
           </h2>
         </FadeInRight>
@@ -311,7 +311,7 @@ const HybridScrollSection: React.FC<Props> = ({ cards = cardData }) => {
                     <Image src={card.image} alt={card.title} width={80} height={100} unoptimized />
                   </div>
                 )}
-                <p className="mb-2 font-roca md:text-3xl text-2xl text-black" dangerouslySetInnerHTML={{ __html: card.title }} />
+                <p className="mb-2 font-dm_serif md:text-3xl text-2xl text-black" dangerouslySetInnerHTML={{ __html: card.title }} />
                 <p className="text-black text-base" dangerouslySetInnerHTML={{ __html: card.paragraph }} />
               </div>
             ))}

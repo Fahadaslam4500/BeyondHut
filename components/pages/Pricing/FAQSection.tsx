@@ -1,12 +1,13 @@
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function FAQSection() {
   return (
     <section className="py-16 px-6 max-w-6xl mx-auto text-center">
-      <h2 className="text-2xl md:text-4xl font-roca font-semibold mb-2">
-        Mini <span className="text-sky-500">FAQ</span>
+      <h2 className="text-2xl md:text-4xl font-dm_serif font-semibold mb-2">
+        Mini <span className="text-gradient font-dm_serif ">FAQ</span>
       </h2>
       <p className="text-[#516371] mb-10 text-lg">Questions We Hear Often</p>
 
@@ -55,7 +56,9 @@ export default function FAQSection() {
 
       {/* CTA */}
       <p className="text-[#516371] text-lg mt-10">Still have questions? Get connected to our support team.</p>
+     <Link href={'/get-started'}>
       <Button className="mt-4 rounded-full px-6 bg-primary">Contact us</Button>
+     </Link>
     </section>
   );
 }

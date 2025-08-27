@@ -13,7 +13,7 @@ function CTAabout() {
 
                 <div className='flex flex-col justify-center items-start w-full relative z-[20] md:max-w-[50%]'>
                     <div className='w-full mt-14 mb-10 flex flex-col gap-3'>
-                            <h2 className="fade-in-up font-roca text-2xl text-start md:text-[40px] font-thin mb-3">Ready to Scale Smarter?</h2>
+                            <h2 className="fade-in-up font-dm_serif text-2xl text-start md:text-[40px] font-thin mb-3">Ready to Scale Smarter?</h2>
                    
                         <p className='mt-1 text-start  text-xl text-[#516371] max-w-[520px]'>Partner with BeyondHut to build winning teams, streamline growth, and unlock your full potential—wherever you are in the world.</p>
                     </div>

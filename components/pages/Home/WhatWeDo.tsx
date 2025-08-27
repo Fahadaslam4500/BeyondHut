@@ -31,7 +31,7 @@ function WhatWeDo() {
             <div className='    max-lg:min-h-[40vh] flex flex-col justify-center items-center relative overflow-hidden p-1'>
                 <div className='w-full md:max-w-[60%] mt-5 p-5'>
                     <FadeInLeft once={false} duration={0.7} distance={30}>
-                        <h2 className="font-roca capitalize text-2xl md:text-4xl font-thin text-center">How our process works</h2>
+                        <h2 className="font-dm_serif capitalize text-2xl md:text-4xl font-thin text-center">How our process works</h2>
                     </FadeInLeft>
                 </div>
 

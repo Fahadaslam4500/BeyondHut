@@ -6,7 +6,7 @@ export default function ComparisonTable() {
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-10">
       
-        <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="my-6 text-3xl font-roca md:text-4xl font-bold text-[#1B1B1B]">
+        <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="my-6 text-3xl font-dm_serif md:text-4xl font-bold text-[#1B1B1B]">
                          Hiring Shouldn’t Be A Full-Time Job
                       </TextAnimate>
         
@@ -118,7 +118,7 @@ export default function ComparisonTable() {
                     "Scalable but requires significant investment",
                 },
               ].map((row, idx) => (
-                <tr key={idx} className="border-t border-gray-200">
+                <tr key={idx} className="border-t border-gray-200 font-ibm_plex">
                   <td className="font-semibold bg-white p-4">{row.label}</td>
                   <td className="bg-[#EBF9FD] text-[#2C6ECB] p-4">
                     {row.beyond}

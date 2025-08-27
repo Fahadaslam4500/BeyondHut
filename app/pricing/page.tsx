@@ -5,7 +5,7 @@ import React from 'react'
 
 function Pricing() {
   return (
-    <div className='font-dm_sans'>
+    <div className='font-dm_serif'>
         <PricingCards/>
         <ComparisonTable/>
         <FAQSection/>

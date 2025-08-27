@@ -383,7 +383,7 @@ export function TextAnimate({
         whileInView={startOnView ? "show" : undefined}
         animate={startOnView ? undefined : "show"}
         exit="exit"
-        className={cn("whitespace-pre-wrap", className)}
+        className={cn("whitespace-pre-wrap font-dm_serif!", className)}
         viewport={{ once }}
         {...props}
       >
@@ -393,7 +393,7 @@ export function TextAnimate({
             variants={finalVariants.item}
             custom={i * staggerTimings[by]}
             className={cn(
-              by === "line" ? "block" : "inline-block whitespace-pre",
+              by === "line" ? "block" : "inline-block whitespace-pre font-dm_serif",
               by === "character" && "",
               segmentClassName,
             )}

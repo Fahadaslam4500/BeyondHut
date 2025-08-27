@@ -88,7 +88,7 @@ const BlogsPage = () => {
 
     return (
         <div className="container py-10 min-h-[50vh]">
-            <h2 className="text-2xl md:text-4xl mt-5 font-bold mb-6 font-roca text-center">Explore the Latest Blogs</h2>
+            <h2 className="text-2xl md:text-4xl mt-5 font-medium mb-6 font-dm_serif text-center text-gradient">Explore the Latest Blogs</h2>
 
             {/* Filters */}
             <div className="flex justify-start items-center">
@@ -129,7 +129,7 @@ const BlogsPage = () => {
             </div>
 
             {/* Error */}
-            {error && <p className="text-red-900 mb-4 text-2xl mt-5 font-bold font-roca text-center">{error}</p>}
+            {error && <p className="text-red-900 mb-4 text-2xl mt-5 font-bold font-dm_serif text-center">{error}</p>}
 
             {/* Loading */}
             {loading ? (
@@ -143,7 +143,7 @@ const BlogsPage = () => {
                     ))}
                 </div>
             ) : filteredPosts.length === 0 ? (
-                <h2 className="font-roca text-xl md:text-3xl text-center mt-10">No results found.</h2>
+                <h2 className="font-dm_serif text-xl md:text-3xl text-center mt-10">No results found.</h2>
             ) : (
                 <>
                     {/* Blogs */}
@@ -176,7 +176,7 @@ const BlogsPage = () => {
 
                                     {/* Text content */}
                                     <div className="flex flex-col flex-1 px-3 py-2">
-                                        <h2 className="font-semibold text-xl font-roca mb-4">
+                                        <h2 className="font-medium text-xl font-ibm_plex mb-4">
                                             {truncate(post.title.rendered, 50)}
                                         </h2>
                                         

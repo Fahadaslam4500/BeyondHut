@@ -20,7 +20,7 @@ function SliderLogos() {
   return (
     <div className='mb-40'>
         <div className='container mt-20'>
-            <h2 className='font-roca text-2xl md:text-4xl font-thin text-center'>Tools we Use</h2>
+            <h2 className='font-dm_serif text-2xl md:text-4xl font-thin text-center'>Tools we Use</h2>
             <p className='mt-3 text-center  text-lg text-[#516371] '>Powerful platforms that help us deliver real results.</p>
         </div>
     <div className="marquee-container my-20">

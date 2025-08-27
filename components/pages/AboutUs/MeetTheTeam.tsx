@@ -31,9 +31,9 @@ function MeetTheTeam() {
 
                 <div className='w-full md:max-w-[60%] md:mt-4 mb-4 relative z-[10]'>
                     <FadeInTop once={false} duration={0.6} distance={30}>
-                        <h2 className="font-roca text-2xl md:text-4xl font-thin text-center mb-3">Meet the Team</h2>
+                        <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center mb-3">Meet the Team</h2>
                     </FadeInTop>
-                    <h5 className='mt-3 text-center font-rocathin text-xl md:text-2xl mb-8 text-black max-w-[600px]'>
+                    <h5 className='mt-3 text-center font-dm_serifthin text-xl md:text-2xl mb-8 text-black max-w-[600px]'>
                         We're worldwide <br />
                         We span 4 continents and recruit from 72 countries all over the world
 

@@ -22,7 +22,7 @@ function ThreeStepProcess() {
                 <div className=' md:px-16 md:py-10 p-5  max-lg:min-h-[60vh] flex flex-col justify-center items-center relative overflow-hidden'>
                     <div className='w-full md:max-w-[70%] mt-4 mb-4'>
                         <FadeInLeft once={false} duration={0.7} distance={30}>
-                            <h2 className="font-roca text-2xl md:text-4xl font-thin text-center md:max-w-[900px]">Our 3-Step Process</h2>
+                            <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center md:max-w-[900px]">Our 3-Step Process</h2>
                         </FadeInLeft>
                         <p className='mt-1 text-center  text-lg text-[#516371]'>Simple and easy</p>
                     </div>
@@ -38,8 +38,8 @@ function ThreeStepProcess() {
                             />
 
                             <div className='z-[10] p-1'>
-                                <h3 className='font-roca text-4xl font-bold mt-6 mb-20'>1</h3>
-                                <h3 className='font-roca text-3xl'>Apply once</h3>
+                                <h3 className='font-dm_serif text-4xl font-bold mt-6 mb-20'>1</h3>
+                                <h3 className='font-dm_serif text-3xl'>Apply once</h3>
                                 <hr className="border-t-[3px] border-dashed border-black my-4" />
                                 <p>Tell us about your experience, skills, and preferences. No endless forms.</p>
                             </div>
@@ -55,8 +55,8 @@ function ThreeStepProcess() {
                             />
 
                             <div className='z-[10] p-1'>
-                                <h3 className='font-roca text-4xl mt-6 mb-20'>2</h3>
-                                <h3 className='font-roca text-3xl'>Get matched</h3>
+                                <h3 className='font-dm_serif text-4xl mt-6 mb-20'>2</h3>
+                                <h3 className='font-dm_serif text-3xl'>Get matched</h3>
                                 <hr className="border-t-[3px] border-dashed border-black my-4" />
                                 <p>We’ll connect you with vetted roles that align with your goals, no spam, no guesswork.</p>
                             </div>
@@ -72,8 +72,8 @@ function ThreeStepProcess() {
                             />
 
                             <div className='z-[10] p-1'>
-                                <h3 className='font-roca text-4xl mt-6 mb-20'>3</h3>
-                                <h3 className='font-roca text-3xl'>Start strong</h3>
+                                <h3 className='font-dm_serif text-4xl mt-6 mb-20'>3</h3>
+                                <h3 className='font-dm_serif text-3xl'>Start strong</h3>
                                 <hr className="border-t-[3px] border-dashed border-black my-4" />
                                 <p>We guide you through onboarding, check in on your progress, and help you keep growing.</p>
                             </div>

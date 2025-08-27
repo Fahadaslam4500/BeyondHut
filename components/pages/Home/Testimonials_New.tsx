@@ -6,12 +6,18 @@ import Image from "next/image";
 
 export default function Testimonials_New() {
     return (
-        <section className="max-w-5xl mx-auto bg-white font-dm_sans p-5">
+        <section className="max-w-5xl mx-auto bg-white font-dm_serif p-5">
             {/* Heading */}
 
-            <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="text-center my-7 text-3xl font-roca md:text-4xl font-bold text-[#1B1B1B]">
-                What Our Clients Say
+            <div className="flex flex-col justify-center items-center gap-2">
+                <p className="mt-2 text-[#516371] text-lg"> Testimonial </p>
+
+            <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="text-center  text-3xl font-dm_serif  md:text-4xl font-medium text-[#1B1B1B]">
+                Don’t take our words,
             </TextAnimate>
+
+            <h2 className="text-gradient text-center text-3xl font-dm_serif md:text-4xl font-medium mb-3">Listen Theirs.</h2>
+            </div>
 
             <div className="grid gap-8 md:grid-cols-2">
 
@@ -37,9 +43,9 @@ export default function Testimonials_New() {
                     {/* Text Content */}
                     <div className="relative z-10 flex-1 flex flex-col justify-between md:h-full md:pt-5">
                         <div className="flex flex-col justify-start gap-3">
-                            <h3 className="text-xl font-semibold mb-2">
+                            <p className="text-xl font-semibold mb-2">
                                 BeyondHut has taken a huge load off our team
-                            </h3>
+                            </p>
                             <p className="text-gray-600 mb-4">
                                 "They used to get tied up in lettings admin but now deals progress
                                 faster, tenants are happier, and we finally have more time to
@@ -79,9 +85,9 @@ export default function Testimonials_New() {
 
                 >
                     <div className="relative z-10">
-                        <h3 className="text-lg font-semibold mb-2">
+                        <p className="text-lg font-semibold mb-2">
                             We were drowning in admin and now everything flows
-                        </h3>
+                        </p>
                         <p className="text-gray-600 mb-4">
                             "Our remote PM handles the details so we can focus on growing the
                             business."
@@ -118,13 +124,13 @@ export default function Testimonials_New() {
                     <img
                         src="/assets/redesign/quote.png"
                         alt="quote"
-                        className=" md:w-[20] md:h-[20] bottom-2 right-0 absolute"
+                        className=" md:w-[100px] md:h-[100px] w-[60px] h-[60px] bottom-2 right-0 absolute"
                     />
 
                     <div className="relative z-10">
-                        <h3 className="text-lg font-semibold mb-2">
+                        <p className="text-lg font-semibold mb-2">
                             We scaled from 60 to 200 managed properties
-                        </h3>
+                        </p>
                         <p className="text-gray-600 mb-4">
                             "Without hiring a single local in-house admin. Our BeyondHut team
                             handles tenant comms, maintenance and compliance. They are great,

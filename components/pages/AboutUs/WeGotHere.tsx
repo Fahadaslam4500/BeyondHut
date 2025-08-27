@@ -15,7 +15,7 @@ function WeGotHere() {
                     </div>
     
                     <div className='w-full mt-10 md:p-4 p-2 relative z-[10] mb-3 flex flex-col items-center justify-center'>
-                        <h2 className="fade-in-up font-roca text-3xl md:text-4xl lg:text-[40px] md:max-w-[600px] text-center font-thin">
+                        <h2 className="fade-in-up font-dm_serif text-3xl md:text-4xl lg:text-[40px] md:max-w-[600px] text-center font-thin">
                         How We Got Here
                         </h2>
                         <p className='mt-3 text-center  text-lg text-[#516371] max-w-[600px]'>We started Beyond Hut to solve a problem and make a difference:

@@ -116,7 +116,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
     return (
         <div className='md:mt-10'>
-            <h2 className='text-center text-3xl md:text-4xl font-bold font-roca'>Get Started with BeyondHut</h2>
+            <h2 className='text-center text-3xl md:text-4xl font-bold font-dm_serif'>Get Started with BeyondHut</h2>
             <p className='text-lg font-medium text-black text-center tracking-tighter mt-3'>Schedule a 30-minute product demo with expert Q&A</p>
             <form onSubmit={handleSubmit} className="w-full h-full min-h-[40vh] mx-auto grid grid-cols-1 md:grid-cols-2 gap-3 md:p-1 mt-10">
                 <InputField id="firstName" label="First name" value={formData.firstName} error={errors.firstName} onChange={handleChange} />
@@ -180,7 +180,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                             }}
                         >
                             <DialogHeader>
-                                <DialogTitle className="text-center text-black font-bold font-roca">Schedule a Meeting</DialogTitle>
+                                <DialogTitle className="text-center text-black font-bold font-dm_serif">Schedule a Meeting</DialogTitle>
                             </DialogHeader>
                             {/* Container for Calendly Widget with fixed height */}
                             <div className="h-[600px] overflow-hidden rounded-lg">

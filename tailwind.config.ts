@@ -19,11 +19,17 @@ const config: Config = {
       center: true,
     },
     extend: {
+       borderWidth: {
+        '0.4': '0.4px',
+      },
+      perspective: {
+        DEFAULT: '1000px'
+      },
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        primarylight:{
-           DEFAULT: '#65CEEC'
+        primarylight: {
+          DEFAULT: '#65CEEC'
         },
         card: {
           DEFAULT: 'hsl(var(--card))',
@@ -36,6 +42,10 @@ const config: Config = {
         primary: {
           DEFAULT: '#00B7EB',
           foreground: 'hsl(var(--primary-foreground))'
+        },
+        purplish : {
+          DEFAULT : "#8F8CFF",
+          foreground: 'hsl(var(--purplish-foreground))'
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -79,16 +89,17 @@ const config: Config = {
         },
       },
       fontFamily: {
-         dm_sans: ["var(--font-dm_sans)", "sans-serif"], // Assuming you've set this up
-        roca: ['var(--font-roca)', 'sans-serif'],   // Add your custom font family
-        rocathin: ['var(--font-rocathin)', 'sans-serif'], 
+        dm_serif: ["var(--font-dm-serif)", "sans-serif"],
+        ibm_plex: ["var(--font-ibm-plex)", "sans-serif"],   // ✅ IBM Plex Sans
+       
       },
+
     },
   },
   plugins: [
     require("tailwindcss-animate"),
     require('@tailwindcss/typography')
-  ]  
+  ]
 };
 
 export default config;

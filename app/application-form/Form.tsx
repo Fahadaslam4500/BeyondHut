@@ -183,7 +183,7 @@ const Form = () => {
 
     return (
         <div className="md:mt-10">
-            <h2 className="text-center text-3xl md:text-4xl font-bold font-roca">Be a part of our talent pool</h2>
+            <h2 className="text-center text-3xl md:text-4xl font-bold font-dm_serif">Be a part of our talent pool</h2>
 
             {successMessage && (
                 <p className="text-center text-green-600 my-4">{successMessage}</p>

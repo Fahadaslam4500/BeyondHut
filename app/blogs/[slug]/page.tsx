@@ -90,7 +90,7 @@ const SingleBlogPage = () => {
     if (error) {
         return (
             <div className="container py-10 min-h-[80vh]">
-                <h2 className="text-red-900 mb-4 text-2xl mt-5 font-bold font-roca text-center">{error}</h2>
+                <h2 className="text-red-900 mb-4 text-2xl mt-5 font-medium font-dm_serif text-center">{error}</h2>
             </div>
         );
     }
@@ -140,21 +140,21 @@ const SingleBlogPage = () => {
                     )}
                     <div className="">
                         <div className="flex justify-start items-center gap-2">
-                            <p className="text-base font-medium font-roca capitalize">{post._embedded.author[0].name}</p>
+                            <p className="text-base font-medium font-ibm_plex capitalize">{post._embedded.author[0].name}</p>
                             <p className="text-xs text-gray-500 mt-1">{new Date(post.date).toLocaleDateString()}</p>
                         </div>
-                        <p className="capitalize text-sm  font-roca text-gray-600">Category : {getCategoryName(post)}</p>
+                        <p className="capitalize text-sm  font-ibm_plex text-gray-600">Category : {getCategoryName(post)}</p>
                     </div>
                 </div>
 
                 {/* Title */}
-                <h1 className="text-2xl font-roca md:text-4xl font-bold mb-6">{post.title.rendered}</h1>
+                <h1 className="text-2xl font-dm_serif md:text-4xl font-medium mb-6">{post.title.rendered}</h1>
 
                 {/* Full Blog Content */}
                 <div
                     className="prose max-w-none p-1 
-    prose-headings:font-roca 
-    prose-li:font-rocathin prose-li:text-gray-800 prose-li:text-lg prose-li:md:text-xl 
+    prose-headings:font-dm_serif 
+    prose-li:font-dm_serifthin prose-li:text-gray-800 prose-li:text-lg prose-li:md:text-xl 
     prose-p:text-lg prose-p:md:text-xl prose-p:text-gray-500 
     prose-img:w-full prose-img:rounded-lg prose-img:object-cover 
     prose-h1:text-3xl prose-h1:md:text-5xl 
@@ -162,7 +162,7 @@ const SingleBlogPage = () => {
     prose-h3:text-xl prose-h3:md:text-3xl 
     prose-h4:text-xl prose-h4:md:text-2xl 
     prose-h5:text-lg prose-h5:md:text-xl
-     prose-em:font-roca prose-em:text-xl
+     prose-em:font-dm_serif prose-em:text-xl
      prose-hr:mt-4 prose-hr:mb-4
    "
                     dangerouslySetInnerHTML={{ __html: post.content.rendered }}
@@ -172,7 +172,7 @@ const SingleBlogPage = () => {
 
             {/* Sidebar */}
             <div className="md:col-span-1">
-                <h2 className="text-2xl font-semibold mb-4 font-roca">{relatedPosts.length >= 1 ? "Sililar Blogs" : ""}</h2>
+                <h2 className="text-2xl font-normal mb-4 font-dm_serif">{relatedPosts.length >= 1 ? "Sililar Blogs" : ""}</h2>
                 <div className="flex flex-col gap-4">
                     {relatedPosts.map((related) => (
                         <Link
@@ -189,7 +189,7 @@ const SingleBlogPage = () => {
                                 />
                             )}
                             <div>
-                                <h3 className="font-medium text-base font-roca">
+                                <h3 className="font-medium text-base font-ibm_plex">
                                     {truncate(related.title.rendered, 35)}
                                 </h3>
                                 <p className="text-sm text-gray-500 line-clamp-3">

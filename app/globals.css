@@ -21,8 +21,12 @@
 }
 
 @layer base {
-  p {
-     @apply tracking-tight font-dm_sans;
+ h1, h2, h3, h4, h5, h6 {
+    @apply font-dm_serif;
+  }
+
+  body, p, span, li, a , button {
+    @apply font-ibm_plex;
   }
   :root {
     --background: 0 0% 100%;
@@ -126,10 +130,10 @@
 
 @keyframes glowTop {
   0%, 100% {
-    transform: translateX(0) rotate(0deg);
+    transform: translateX(10) rotate(0deg);
   }
   50% {
-    transform: translateX(10%) rotate(10deg);
+    transform: translateX(20%) rotate(10deg);
   }
 }
 
@@ -338,3 +342,33 @@
     transform: translateX(-50%);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Redesign 2.0 */
+/* globals.css */
+.text-gradient {
+  background: linear-gradient(90deg, #7DD7FF, #9180FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.text-gradient-reverse {
+  background: linear-gradient(90deg,#9180FF, #7DD7FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+

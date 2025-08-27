@@ -12,7 +12,7 @@ function CTASales() {
 
                 <div className='flex flex-col justify-center items-center w-full relative z-[20]'>
                     <div className='w-full mt-14 mb-10 flex flex-col gap-3'>
-                            <h2 className="fade-in-up font-roca text-2xl text-center md:text-[40px] font-thin mb-3">Growth starts with the right Partner</h2>
+                            <h2 className="fade-in-up font-dm_serif text-2xl text-center md:text-[40px] font-thin mb-3">Growth starts with the right Partner</h2>
                    
                         <p className='mt-1 text-center  text-xl text-[#516371]'>One call can change the way your team sells, <span className='font-semibold'>forever.</span></p>
                     </div>

@@ -10,7 +10,7 @@ function OurValues() {
             <div className=' max-lg:min-h-[60vh]  md:px-16 md:py-10 md:p-8 p-1  flex flex-col justify-center items-center relative overflow-hidden'>
                 <div className='w-full md:max-w-[60%] mt-4 mb-4'>
                     <FadeInTop once={false} duration={0.6} distance={30}>
-                        <h2 className="font-roca text-2xl md:text-4xl font-thin text-center mb-3">Our Values</h2>
+                        <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center mb-3">Our Values</h2>
                     </FadeInTop>
                 </div>
 

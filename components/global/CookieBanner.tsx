@@ -29,7 +29,7 @@ export default function CookieBanner() {
       
       {/* Text */}
       <div className="text-sm text-gray-700 sm:max-w-[75%] lg:max-w-[70%]">
-        <h4 className="font-semibold text-base text-black mb-1 font-roca">
+        <h4 className="font-semibold text-base text-black mb-1 font-dm_serif">
           Accept the use of cookies.
         </h4>
         <p>

@@ -20,7 +20,7 @@ function AboutHero() {
                 </div>
 
                 <div className='w-full mt-10 md:p-4 p-2 flex flex-col justify-center items-center relative z-[10] md:mb-10'>
-                    <h1 className="fade-in-up text-center md:text-start font-roca text-3xl md:text-4xl lg:text-[40px] md:max-w-[600px] font-thin md:leading-[3.5rem]">
+                    <h1 className="fade-in-up text-center md:text-start font-dm_serif text-3xl md:text-4xl lg:text-[40px] md:max-w-[600px] font-thin md:leading-[3.5rem]">
                         We Go Beyond. That’s the Difference.
                     </h1>
 

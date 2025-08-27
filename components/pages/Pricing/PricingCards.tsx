@@ -74,7 +74,7 @@ export default function PricingCards() {
   return (
     <section className="container mx-auto px-12 py-12 max-2xl:min-h-[100vh] flex flex-col justify-center items-center">
      
-         <TextAnimate animation="blurInUp" by="word" as={'h1'} duration={0.8} className="my-14 text-center text-3xl font-roca md:text-4xl font-bold text-[#1B1B1B]">
+         <TextAnimate animation="blurInUp" by="word" as={'h1'} duration={0.8} className="my-14 text-center text-3xl font-dm_serif md:text-4xl font-bold text-[#1B1B1B]">
                   Pricing That Doesn’t Make You Think Twice.
               </TextAnimate>
 
@@ -85,7 +85,7 @@ export default function PricingCards() {
             className={`rounded-2xl shadow-lg p-6 ${plan.className} hover:shadow-2xl transition-transform hover:-translate-y-2 cursor-pointer flex flex-col`}
           >
             <div className="mb-4">
-              <h3 className="text-xl font-semibold font-dm_sans">{plan.title}</h3>
+              <h3 className="text-xl font-semibold font-ibm_plex">{plan.title}</h3>
               {plan.years && (
                   <p className="text-sm text-gray-500 mt-1">({plan.years})</p>
                 )}

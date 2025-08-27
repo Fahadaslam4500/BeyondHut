@@ -26,7 +26,7 @@ function WeGoBeyond() {
 
                         <div className='max-w-[350px] lg:min-w-[310px]'>
                             <FadeInTop once={false} duration={0.6} distance={30}>
-                                <h2 className="font-roca text-2xl md:text-3xl font-thin text-start">We Don’t Just Advise.<br /> We Go Beyond.</h2>
+                                <h2 className="font-dm_serif text-2xl md:text-3xl font-thin text-start">We Don’t Just Advise.<br /> We Go Beyond.</h2>
                             </FadeInTop>
                             <h3 className='tracking-tight text-lg md:text-xl font-medium leading-tight text-start mt-4'>
                                 Most consultants hand you a strategy and disappear.

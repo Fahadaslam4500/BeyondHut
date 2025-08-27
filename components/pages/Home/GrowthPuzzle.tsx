@@ -10,7 +10,7 @@ function GrowthPuzzle() {
             <div className='md:px-16 md:py-10 p-5 bg-white max-lg:min-h-[60vh]  flex flex-col justify-center items-center relative overflow-hidden'>
                 <div className='w-full md:max-w-[70%] mt-4 mb-4'>
                     <FadeInLeft once={false} duration={0.7} distance={30}>
-                        <h2 className="font-roca text-2xl md:text-4xl font-thin text-center md:max-w-[900px]">We solve the growth puzzle </h2>
+                        <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center md:max-w-[900px]">We solve the growth puzzle </h2>
                     </FadeInLeft>
                     <p className='mt-1 text-center  text-lg text-[#516371]'>So you can focus on what matters.</p>
                 </div>
@@ -26,8 +26,8 @@ function GrowthPuzzle() {
                         />
 
                         <div className='z-[10] p-1'>
-                            <h3 className='font-roca text-4xl font-bold mt-6 mb-20'>1</h3>
-                            <h3 className='font-roca text-3xl'>Talent hiring <br /> handled</h3>
+                            <h3 className='font-dm_serif text-4xl font-bold mt-6 mb-20'>1</h3>
+                            <h3 className='font-dm_serif text-3xl'>Talent hiring <br /> handled</h3>
                             <hr className="border-t-[3px] border-dashed border-black my-4" />
                             <p>End-to-end recruitment,<br /> without the hassle.</p>
                         </div>
@@ -43,8 +43,8 @@ function GrowthPuzzle() {
                         />
 
                         <div className='z-[10] p-1'>
-                            <h3 className='font-roca text-4xl mt-6 mb-20'>2</h3>
-                            <h3 className='font-roca text-3xl'>Sales processes <br /> automated</h3>
+                            <h3 className='font-dm_serif text-4xl mt-6 mb-20'>2</h3>
+                            <h3 className='font-dm_serif text-3xl'>Sales processes <br /> automated</h3>
                             <hr className="border-t-[3px] border-dashed border-black my-4" />
                             <p>Let automation drive your<br /> revenue growth.</p>
                         </div>
@@ -60,8 +60,8 @@ function GrowthPuzzle() {
                         />
 
                         <div className='z-[10] p-1'>
-                            <h3 className='font-roca text-4xl mt-6 mb-20'>3</h3>
-                            <h3 className='font-roca text-3xl'>Scale your team <br /> without overhead</h3>
+                            <h3 className='font-dm_serif text-4xl mt-6 mb-20'>3</h3>
+                            <h3 className='font-dm_serif text-3xl'>Scale your team <br /> without overhead</h3>
                             <hr className="border-t-[3px] border-dashed border-black my-4" />
                             <p>Grow fast without adding<br /> complexity or cost.</p>
                         </div>

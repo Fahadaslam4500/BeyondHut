@@ -6,22 +6,23 @@ import ProfitableAgency from '@/components/pages/Home/ProfitableAgency'
 import RolesSection from '@/components/pages/Home/RolesSection'
 import StartWithUs from '@/components/pages/Home/StartWithUs'
 import Testimonials_New from '@/components/pages/Home/Testimonials_New'
+import FallingButtonsFramer from '@/components/ui/FallingButtonFramer'
+import MyPage from '@/components/ui/mypage'
 import React from 'react'
 
 
 function Home() {
   return (
     <div className='overflow-hidden'>
-      <HomeHero/>
-      {/* <FallingTags/> */}
-      <ProfitableAgency/>
-      <RolesSection/>
-      
-      <Logos_Sliding/>
-      <Testimonials_New/>
-      <FourSteps/>
-      <BlogsSection/>
-      <StartWithUs/>
+      <HomeHero />
+      <ProfitableAgency />
+      <RolesSection />
+      <Logos_Sliding />
+      <Testimonials_New />
+      <FourSteps />
+      {/* <FallingButtonsFramer/> */}
+      <BlogsSection />
+      <StartWithUs />
     </div>
   )
 }

@@ -23,7 +23,7 @@ function PressureEveryAgentFeel() {
 
                     <div className='w-full md:max-w-[60%] mt-4 mb-4'>
                         <FadeInTop once={false} duration={0.6} distance={30}>
-                            <h2 className="font-roca text-2xl md:text-4xl font-thin text-center">Pressures Every Agent Feels</h2>
+                            <h2 className="font-dm_serif text-2xl md:text-4xl font-thin text-center">Pressures Every Agent Feels</h2>
                         </FadeInTop>
                         <p className='mt-1 text-center  text-lg text-[#516371]'>Even top-performing agencies face these daily struggles
                             especially when the market shifts.</p>

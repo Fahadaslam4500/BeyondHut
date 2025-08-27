@@ -21,7 +21,7 @@ function RealEstateHero() {
 
 
                 <div className='w-full md:max-w-[70%] mt-10 md:p-4 p-2 flex flex-col justify-center items-center relative z-[3]'>
-                    <h1 className="fade-in-up font-roca text-3xl md:text-4xl lg:text-[40px] font-thin text-center md:max-w-[900px]">
+                    <h1 className="fade-in-up font-dm_serif text-3xl md:text-4xl lg:text-[40px] font-thin text-center md:max-w-[900px]">
                        Build Your Estate Team for 70 % Less.
                     </h1>
 

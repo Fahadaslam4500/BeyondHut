@@ -29,7 +29,7 @@ function ApplicationForm() {
           </FadeInLeft>
 
           <FadeInBottom duration={0.8} distance={60} once={false}>
-            <h1 className='text-center text-black font-roca md:text-4xl text-3xl font-bold mt-4'>
+            <h1 className='text-center text-black font-dm_serif md:text-4xl text-3xl font-bold mt-4'>
               Find Your Dream Job with Top Global Companies
             </h1>
           </FadeInBottom>

@@ -38,10 +38,10 @@ const BlogsSection = () => {
   
     return (
         <div className="container py-10">
-            <h2 className="text-2xl md:text-4xl mt-5 font-bold mb-10 font-roca text-center capitalize ">Read latest <span className="text-[#65CEEC]">blog and articles</span></h2>
+            <h2 className="text-2xl md:text-4xl mt-5 font-medium mb-10 font-dm_serif text-center capitalize ">Read latest <span className="text-gradient font-dm_serif">blog and articles</span></h2>
 
             {/* Error */}
-            {error && <p className="text-red-900 mb-4 text-2xl mt-5 font-bold font-roca text-center">{error}</p>}
+            {error && <p className="text-red-900 mb-4 text-2xl mt-5 font-bold font-dm_serif text-center">{error}</p>}
 
             {/* Loading */}
             {loading ? (
@@ -55,7 +55,7 @@ const BlogsSection = () => {
                     ))}
                 </div>
             ) : posts.length === 0 ? (
-                <h2 className="font-roca text-xl md:text-3xl text-center mt-10">No results found.</h2>
+                <h2 className="font-dm_serif text-xl md:text-3xl text-center mt-10">No results found.</h2>
             ) : (
                 <>
                     {/* Blogs */}
@@ -88,7 +88,7 @@ const BlogsSection = () => {
 
                                     {/* Text content */}
                                     <div className="flex flex-col flex-1 px-3 py-2 gap-3">
-                                        <h2 className="font-semibold text-xl font-roca">
+                                        <h2 className="font-medium font-ibm_plex text-xl">
                                             {truncate(post.title.rendered, 50)}
                                         </h2>                                        
                                         <p className="text-sm text-gray-500 mt-auto border-t-2 border-dashed border-t-[#D8DBDF] pt-2">

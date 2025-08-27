@@ -20,12 +20,13 @@ function Logos_Sliding() {
   return (
     <div className='mb-40 bg-gradient-to-l from-[#D1ECF5] to-[#EFECFF]'>
 
-      <div className="py-32 mx-auto my-20 flex flex-col md:flex-row items-center md:items-start gap-8">
-        
+      <div className="py-12 mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
+
         {/* Heading Section */}
-        <div className="md:ms-20 md:w-[20%] text-center md:text-left">
-          <h2 className='font-dm_sans text-2xl md:text-3xl capitalize'>
-            Our <span className='font-roca'>Talent/VA’s</span> come fully trained in
+        <div className="md:ms-20 md:w-[20%] text-center md:text-left max-md:container">
+          <h2 className='font-ibm_plex text-2xl md:text-3xl capitalize'>
+            Our <span className='font-dm_serif text-gradient-reverse'>"Staff"</span> Comes
+            Fully Trained In
           </h2>
         </div>
 
@@ -33,11 +34,11 @@ function Logos_Sliding() {
         <div className="marquee-container flex-1">
           <div className="marquee-track">
             {[...logos, ...logos].map((src, i) => (
-              <img 
-                key={i} 
-                src={src} 
-                className="h-[40px] md:h-[80px] mx-4" 
-                alt={`tool-${i}`} 
+              <img
+                key={i}
+                src={src}
+                className="h-[40px] md:h-[80px] mx-4 rounded-md"
+                alt={`tool-${i}`}
               />
             ))}
           </div>
