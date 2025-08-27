@@ -57,7 +57,7 @@ export default function ProfitableAgency() {
                                 <Image src="/assets/redesign/agency2.png" alt="Agency Icon" width={40} height={40} className="mb-2" />
                                 <p className="font-semibold text-purplish text-lg">Smooth management, zero stress</p>
                                 <p className="text-[#6D6D6D]  text-base mt-2">
-                                    Get a hire who’s supported, guided, and kept on track:  without you having to manage them constantly.
+                                    We oversee performance so your hire keeps delivering without extra effort.
                                 </p>
                             </motion.div>
                             <motion.div

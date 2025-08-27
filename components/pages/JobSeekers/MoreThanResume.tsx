@@ -53,7 +53,7 @@ function MoreThanResume() {
                             Always <br className='hidden md:flex'/> expanding
                         </h4>
                         <p className='text-base'>10 people. 100 people. 1,000. <br />
-                            We’re here to help you grow to any size.</p>
+                            We’re on the lookout for driven ambitious talent</p>
                     </div>
 
                     <div className='flex flex-col justify-center items-center p-5'>

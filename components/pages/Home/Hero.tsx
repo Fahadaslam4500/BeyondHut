@@ -57,7 +57,7 @@ function HomeHero() {
                             <p className="text-[#A4D5E3] text-4xl">
                                 <NumberTicker
                                     value={7}
-                                    className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
+                                    className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-bold tracking-tighter"
                                 />
                             </p>
                             <p className="text-[#516371]">Day Setup</p>
@@ -70,10 +70,10 @@ function HomeHero() {
                         <div className="md:p-5 p-3 flex-1 relative">
                             <div className="flex justify-center">
                                 <NumberTicker
-                                    value={45}
-                                    className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
+                                    value={70}
+                                    className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-bold tracking-tighter"
                                 />
-                                <p className="text-[#A4D5E3] text-4xl">+</p>
+                                <p className="text-[#A4D5E3] text-4xl">%</p>
                             </div>
                             <p className="text-[#516371]">Cost Saving</p>
                             <div className="absolute sm:hidden flex w-20 h-[0.4px] bg-[#C4C4C4] left-[20%] -bottom-6"></div>
@@ -84,7 +84,7 @@ function HomeHero() {
 
                         {/* Box 3 */}
                         <div className="md:p-5 p-3 flex-1 -mt-3 relative">
-                            <p className="text-[#A4D5E3] text-5xl whitespace-pre-wrap font-medium tracking-tighter">∞</p>
+                            <p className="text-[#A4D5E3] text-5xl whitespace-pre-wrap font-bold tracking-tighter">∞</p>
                             <p className="text-[#516371]">Hours Saved</p>
                             <div className="absolute sm:hidden flex h-20 w-[0.4px] bg-[#C4C4C4] right-0 -bottom-2"></div>
                         </div>
@@ -94,7 +94,7 @@ function HomeHero() {
                         {/* Box 4 */}
                         <div className="md:p-5 p-3 flex-1 relative">
                             <div className="flex justify-center">
-                               <p className='text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter'>0</p>
+                               <p className='text-[#A4D5E3] text-4xl whitespace-pre-wrap font-bold tracking-tighter'>0</p>
                              
                             </div>
                             <p className="text-[#516371]">Down time</p>
@@ -108,7 +108,7 @@ function HomeHero() {
                                 <div className="flex justify-center">
                                     <NumberTicker
                                         value={93}
-                                        className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
+                                        className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-bold tracking-tighter"
                                     />
                                     <p className="text-[#A4D5E3] text-4xl">%</p>
                                 </div>
