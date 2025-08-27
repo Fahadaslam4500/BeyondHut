@@ -28,7 +28,7 @@ export default function FourSteps() {
     ];
 
     return (
-        <div className="w-full bg-[#F3FBFE] py-32 my-20">
+        <div className="w-full bg-[#F3FBFE] md:py-32 py-10 my-20">
             <section className="container">
 
                 <TextAnimate animation="blurInUp" by="word" as={'h2'} duration={0.8} className="text-center text-3xl font-dm_serif md:text-4xl font-medium text-[#1B1B1B]">

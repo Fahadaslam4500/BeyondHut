@@ -12,7 +12,7 @@ export default function ProfitableAgency() {
 
     return (
         <div className="container">
-            <section className="mt-20 w-full py-16 lg:px-20">
+            <section className="md:mt-20 mt-4 w-full py-16 lg:px-20">
                 <div className="flex flex-col md:flex-row items-center gap-10">
                     {/* Left Side (Text) */}
                     <div className="md:w-3/5 text-left">

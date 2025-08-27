@@ -18,26 +18,25 @@ function Logos_Sliding() {
   ];
 
   return (
-    <div className='mb-40 bg-gradient-to-l from-[#D1ECF5] to-[#EFECFF]'>
-
-      <div className="py-12 mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
-
+    <div className="md:mb-40 mb-4 bg-gradient-to-l from-[#D1ECF5] to-[#EFECFF]">
+      <div className="md:py-12 py-8 mx-auto flex flex-row items-center gap-8 overflow-hidden">
+        
         {/* Heading Section */}
-        <div className="md:ms-20 md:w-[20%] text-center md:text-left max-md:container">
-          <h2 className='font-ibm_plex text-2xl md:text-3xl capitalize'>
-            Our <span className='font-dm_serif text-gradient-reverse'>"Staff"</span> Comes
+        <div className="md:ms-20 text-left shrink-0 px-3">
+          <h2 className="font-ibm_plex text-base md:text-3xl capitalize">
+            Our <span className="font-dm_serif text-gradient-reverse">"Staff"</span> Comes<br/>
             Fully Trained In
           </h2>
         </div>
 
         {/* Logos Marquee Section */}
-        <div className="marquee-container flex-1">
-          <div className="marquee-track">
+        <div className="marquee-container flex-1 overflow-hidden">
+          <div className="marquee-track flex">
             {[...logos, ...logos].map((src, i) => (
               <img
                 key={i}
                 src={src}
-                className="h-[40px] md:h-[80px] mx-4 rounded-md"
+                className="h-[40px] md:h-[80px] md:mx-4 ms-2 rounded-md flex-shrink-0"
                 alt={`tool-${i}`}
               />
             ))}

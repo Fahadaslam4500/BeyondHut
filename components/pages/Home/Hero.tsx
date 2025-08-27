@@ -48,7 +48,7 @@ function HomeHero() {
 
 
                     <div
-                        className="w-full 2xl:w-[85%] lg:w-[100%] md:bg-white bg-transparent py-4 mb-7 
+                        className="w-full 2xl:w-[85%] lg:w-[100%] md:bg-white bg-transparent md:py-4 py-2 md:mb-7 
                         rounded-[10px] md:shadow-md md:shadow-[#8e8e8e13] relative z-[3] 
                         grid grid-cols-2 gap-y-6 text-center md:flex md:justify-between md:items-center"
                     >

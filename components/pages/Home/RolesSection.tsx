@@ -48,7 +48,7 @@ const roles = [
 
 export default function RolesSection() {
   return (
-    <section className={`container py-16 px-6 md:px-12 lg:px-20 my-10`}>
+    <section className={`container md:py-16 py-6 px-6 md:px-12 lg:px-20 md:my-10`}>
       {/* Heading */}
       <div className="text-center mb-12">
 
@@ -62,21 +62,21 @@ export default function RolesSection() {
       </div>
 
       {/* Grid with animations */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8  ">
+      <div className="grid grid-cols-2  lg:grid-cols-3 gap-3">
         {roles.map((role, index) => (
           <div
             key={index}
            
-            className={`min-h-[500px] hover:cursor-pointer flex flex-col justify-between rounded-2xl p-6 hover:shadow-lg transition ${role.className}`}
+            className={`md:min-h-[400px] lg:min-h-[500px] hover:cursor-pointer flex flex-col justify-between rounded-2xl p-3 md:p-6 hover:shadow-lg transition ${role.className}`}
           >
-            <h3 className="text-2xl font-medium font-ibm_plex text-[#2B2B2B] ">
+            <h3 className="text-base sm:text-lg md:text-2xl font-medium font-ibm_plex text-[#2B2B2B] ">
               {role.title}
             </h3>
-            <p className="mt-2 text-[#616161] text-base">{role.desc}</p>
-            <p className="mt-2 text-[#454545] font-medium p-3 border-[1px] text-lg border-[#E7E7E7] rounded-md self-start">
+            <p className="mt-1 md:mt-2 text-[#616161] text-sm md:text-base">{role.desc}</p>
+            <p className="md:mt-2 text-[#454545] font-medium md:p-3 p-1 my-2 border-[1px] text-sm md:text-lg border-[#E7E7E7] rounded-md self-start">
               {role.tag}
             </p>
-            <img src={role.image} alt={role.title} className="w-full mt-10" />
+            <img src={role.image} alt={role.title} className="w-full md:mt-10 mt-2" />
           </div>
         ))}
       </div>
