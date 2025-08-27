@@ -70,7 +70,7 @@ function HomeHero() {
                         <div className="md:p-5 p-3 flex-1 relative">
                             <div className="flex justify-center">
                                 <NumberTicker
-                                    value={45}
+                                    value={70}
                                     className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-bold tracking-tighter"
                                 />
                                 <p className="text-[#A4D5E3] text-4xl">%</p>
