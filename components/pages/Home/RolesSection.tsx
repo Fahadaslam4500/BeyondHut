@@ -25,7 +25,7 @@ const roles = [
   },
   {
     title: "Lettings Coordinator",
-    desc: "Manages property marketing, viewings, and prospect engagement to maximize occupancy rates.",
+    desc: "Manages property marketing, publishing listings, viewings, and prospect engagement to maximize occupancy rates.",
     className: "bg-[#F5F5F5]",
     tag: "Keep your lettings pipeline flowing",
     image: "/assets/redesign/role4.png",
