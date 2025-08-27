@@ -25,7 +25,7 @@ const roles = [
   },
   {
     title: "Lettings Coordinators",
-    desc: "Lease renewals, compliance certificates, inspection scheduling, maintenance coordination",
+    desc: "Tenancy agreements, reference checks, inventory prep, marketing updates",
     className: "bg-[#F5F5F5]",
     tag: "Keep your lettings pipeline flowing",
     image: "/assets/redesign/role4.png",
@@ -38,7 +38,7 @@ const roles = [
     image: "/assets/redesign/role5.png",
   },
   {
-    title: "Sales Coordinators",
+    title: "Sales Progressors/ Transaction Coordinators",
     desc: "Lead qualification, offer management, completion tracking, post-sale follow-up",
     className: "bg-[#F5F5F5]",
     tag: "Turn more prospects into closed deals",
