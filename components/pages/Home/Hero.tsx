@@ -56,7 +56,7 @@ function HomeHero() {
                         <div className="md:p-5 p-3 flex-1 relative">
                             <p className="text-[#A4D5E3] text-4xl">
                                 <NumberTicker
-                                    value={100}
+                                    value={7}
                                     className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
                                 />
                             </p>
@@ -73,9 +73,9 @@ function HomeHero() {
                                     value={45}
                                     className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
                                 />
-                                <p className="text-[#A4D5E3] text-4xl">%</p>
+                                <p className="text-[#A4D5E3] text-4xl">+</p>
                             </div>
-                            <p className="text-[#516371]">Hours Saved</p>
+                            <p className="text-[#516371]">Cost Saving</p>
                             <div className="absolute sm:hidden flex w-20 h-[0.4px] bg-[#C4C4C4] left-[20%] -bottom-6"></div>
                             <div className="absolute sm:hidden flex w-20 h-[0.4px] bg-[#c4c4c483] right-[120%] -bottom-6"></div>
                         </div>
@@ -94,11 +94,8 @@ function HomeHero() {
                         {/* Box 4 */}
                         <div className="md:p-5 p-3 flex-1 relative">
                             <div className="flex justify-center">
-                                <NumberTicker
-                                    value={100}
-                                    className="text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter"
-                                />
-                                <p className="text-[#A4D5E3] text-4xl">%</p>
+                               <p className='text-[#A4D5E3] text-4xl whitespace-pre-wrap font-medium tracking-tighter'>0</p>
+                             
                             </div>
                             <p className="text-[#516371]">Down time</p>
                         </div>
