@@ -36,7 +36,7 @@ function Logos_Sliding() {
               <img
                 key={i}
                 src={src}
-                className="h-[40px] md:h-[80px] rounded-md flex-shrink-0"
+                className="h-[40px] md:h-[60px] rounded-md flex-shrink-0"
                 alt={`tool-${i}`}
               />
             ))}
