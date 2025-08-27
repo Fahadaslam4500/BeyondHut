@@ -13,18 +13,14 @@ function HomeHero() {
             <div className='container '>
                 <div className=' min-h-[75vh]  flex flex-col justify-center gap-10 2xl:gap-12 items-center  md:rounded-[50px] rounded-[30px]'>
 
-                    {/* Glow*/}
-                    <div className="absolute inset-0 z-[1] pointer-events-none overflow-hidden">
-                        <div className="relative w-full h-full glow-animation">
+                  
 
-                            {/* Purple Glow */}
-                            <div className="absolute md:w-[250px] md:h-[250px] 2xl:w-[450px] 2xl:h-[450px] w-[200px] h-[200px] bg-[#78cfea82] rounded-full blur-3xl opacity-50 -bottom-20 top-[20%] left-[20%]"></div>
-
-                            {/* Sky Blue Glow */}
-                            <div className="absolute md:w-[400px] md:h-[300px] w-[200px] h-[200px] 2xl:w-[450px] 2xl:h-[450px] bg-[#9f96f2a0] rounded-full blur-3xl opacity-50 -bottom-10 top-[20%] left-30"></div>
-
-                        </div>
+                        {/* BG_Animation */}
+                     <div className="absolute inset-0 w-full h-full flex items-center justify-center blur-[80px] sm:blur-[70px] md:blur-[100px] 2xl:blur-[120px]">
+                    <div className="rounded-full w-[80vw] h-[80vh] bg-white relative md:scale-[0.8] overflow-hidden">
+                        <div className="blob absolute inset-0 w-full h-full" />
                     </div>
+                </div>
 
 
 
@@ -39,7 +35,7 @@ function HomeHero() {
 
                         <p className='mt-7 text-center  text-lg 2xl:text-[21px] text-[#516371] max-w-[800px] leading-7'>Scale your property business faster with trained remote staff handling admin operations, tenant support, listings, appointments and much more.</p>
                         <Link href={'/get-started'}>
-                            <Button className=" font-ibm_plex text-lg rounded-full hover:scale-105 py-6 px-8 transition-transform mt-5 text-black font-medium bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] shadow-xl shadow-[#91919138]">
+                            <Button className=" font-ibm_plex text-black text-lg rounded-full hover:scale-105 py-6 px-8 transition-transform mt-5 font-medium bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] shadow-xl">
                                 Build My Dream Team
                             </Button>
                         </Link>

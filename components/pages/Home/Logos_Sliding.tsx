@@ -19,29 +19,24 @@ function Logos_Sliding() {
   ];
 
   return (
-    <div className="md:mb-40 mb-4 bg-gradient-to-l from-[#D1ECF5] to-[#EFECFF]">
-      <div className="md:py-12 py-8 mx-auto flex flex-row items-center gap-8 overflow-hidden">
+    <div className="md:mb-40 mb-4 bg-gradient-to-l from-[#D1ECF5] to-[#EFECFF] overflow-hidden">
+      <div className="md:py-12 py-8 flex flex-row items-center gap-8 overflow-hidden">
         
         {/* Heading Section */}
-        <div className="md:ms-20 text-left shrink-0">
+        <div className="md:ms-20 text-left shrink-0 max-sm:w-[40%]">
           <h2 className="font-ibm_plex text-sm md:text-3xl capitalize container">
             Our <span className="font-dm_serif text-gradient-reverse">"Staff"</span> Comes<br/>
             Fully Trained In
           </h2>
         </div>
 
-         <div className="flex-1 overflow-hidden">
-          <Marquee reverse pauseOnHover className="[--duration:20s] flex gap-2 md:gap-8">
-            {logos.map((src, i) => (
-              <img
-                key={i}
-                src={src}
-                className="h-[40px] md:h-[60px] rounded-md flex-shrink-0"
-                alt={`tool-${i}`}
-              />
-            ))}
-          </Marquee>
+         <div className="marquee-container overflow-hidden">
+        <div className="marquee-track ">
+          {[...logos, ...logos].map((src, i) => (
+            <img key={i} src={src} className="h-[40px] md:h-[80px] mx-1 md:mx-3" alt={`tool-${i}`} />
+          ))}
         </div>
+      </div>
       </div>
     </div>
   );

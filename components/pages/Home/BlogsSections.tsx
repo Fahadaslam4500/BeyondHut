@@ -37,8 +37,8 @@ const BlogsSection = () => {
 
   
     return (
-        <div className="container py-10">
-            <h2 className="text-2xl md:text-4xl mt-5 font-medium mb-10 font-dm_serif text-center capitalize ">Read latest <span className="text-gradient font-dm_serif">blog and articles</span></h2>
+        <div className="container md:py-5 py-4">
+            <h2 className="text-2xl md:text-4xl mt-2 font-medium mb-10 font-dm_serif text-center capitalize ">Read latest <span className="text-gradient font-dm_serif">blog and articles</span></h2>
 
             {/* Error */}
             {error && <p className="text-red-900 mb-4 text-2xl mt-5 font-bold font-dm_serif text-center">{error}</p>}

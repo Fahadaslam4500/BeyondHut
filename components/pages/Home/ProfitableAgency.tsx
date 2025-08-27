@@ -127,7 +127,7 @@ export default function ProfitableAgency() {
                          <motion.img
                                 src="/assets/redesign/agencycontainer.png"
                                 alt="Team meeting"
-                                initial={{ scale: 0.1, opacity: 0, y: 50 }}
+                                initial={{ scale: 0.3, opacity: 0, y: 50 }}
                                 whileInView={{ scale: 1, opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.3 }}
                                 viewport={{ once: false }}

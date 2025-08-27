@@ -120,13 +120,14 @@
     transform: translateX(10%);
   }
   50% {
-    transform: translateX(50%); /* adjust as needed */
+    transform: translateX(50%) ; /* adjust as needed */
   }
 }
 
 .glow-animation {
-  animation: glowMove 6s ease-in-out infinite;
+  animation: glowMove 10s ease-in-out infinite;
 }
+
 
 @keyframes glowTop {
   0%, 100% {
@@ -338,7 +339,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* adjust depending on clone width */
+    transform: translateX(-150%); /* adjust depending on clone width */
   }
 }
 
@@ -373,6 +374,43 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+
+
+
+
+ .blob {
+  background: conic-gradient(from 0deg, #beeafe, #CFF0FF, #D2CBFF, #CFF0FF, #CFF0FF, #D2CBFF, #CFF0FF, #D2CBFF);
+  animation: spinBlob 8s linear infinite alternate;
+} 
+
+@keyframes spinBlob {
+  0% {
+    transform: rotate(0deg) scale(2) translateX(0%);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(4) translateX(10%);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(2) translateX(20%);
+  }
+}
+
+
+.glow-animation-reverse {
+  animation: glowMoveReverse 12s ease-in-out infinite;
+}
+
+@keyframes glowMoveReverse {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 

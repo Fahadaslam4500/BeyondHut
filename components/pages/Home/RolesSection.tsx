@@ -52,7 +52,7 @@ export default function RolesSection() {
       {/* Heading */}
       <div className="text-center mb-12">
 
-        <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="text-3xl  md:text-4xl font-medium text-[#1B1B1B]">
+        <TextAnimate animation="blurInUp" once={true} by="word" as={'h2'} duration={0.8} className="text-3xl  md:text-4xl font-medium text-[#1B1B1B]">
           Talent Placement Roles We Fill
         </TextAnimate>
 
@@ -62,12 +62,12 @@ export default function RolesSection() {
       </div>
 
       {/* Grid with animations */}
-      <div className="grid grid-cols-2  lg:grid-cols-3 gap-3">
+      <div className="grid grid-cols-2  lg:grid-cols-3 gap-5 perspective-1000">
         {roles.map((role, index) => (
           <div
             key={index}
            
-            className={`md:min-h-[400px] lg:min-h-[500px] hover:cursor-pointer flex flex-col justify-between rounded-2xl p-3 md:p-6 hover:shadow-lg transition ${role.className}`}
+            className={`md:min-h-[400px] lg:min-h-[500px] hover:cursor-pointer flex flex-col justify-between rounded-2xl p-3 md:p-6  hover:shadow-lg transition hover:scale-[1.03] hover:-translate-y-1 hover:rotate-x-6 hover:rotate-y-6 ${role.className}`}
           >
             <h3 className="text-base sm:text-lg md:text-2xl font-medium font-ibm_plex text-[#2B2B2B] ">
               {role.title}

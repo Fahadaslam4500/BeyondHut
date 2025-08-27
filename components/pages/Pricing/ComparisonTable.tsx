@@ -6,7 +6,7 @@ export default function ComparisonTable() {
       {/* Heading */}
       <div className="text-center max-w-3xl mx-auto mb-10">
       
-        <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="my-6 text-3xl font-dm_serif md:text-4xl font-bold text-[#1B1B1B]">
+        <TextAnimate animation="blurInUp" by="word" as={'h2'} duration={0.8} className="my-6 text-3xl font-dm_serif md:text-4xl font-bold text-[#1B1B1B]">
                          Hiring Shouldn’t Be A Full-Time Job
                       </TextAnimate>
         

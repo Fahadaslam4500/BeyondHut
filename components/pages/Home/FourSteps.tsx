@@ -43,8 +43,8 @@ export default function FourSteps() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: false, amount: 0.2 }}
                     transition={{
-                        duration: 0.6,
-                        delay: index * 0.5,
+                        duration: 0.4,
+                        delay: index * 0.1,
                         ease: "linear",
                     }}
                             key={index}
@@ -58,7 +58,7 @@ export default function FourSteps() {
                                     height={180}
                                 />
                             </div>
-                            <h3 className="font-bold text-lg">{step.title}</h3>
+                            <h3 className="font-bold text-lg font-ibm_plex">{step.title}</h3>
                             <p className="text-gray-600 mt-2 text-sm text-start">{step.desc}</p>
 
                             {/* Arrows between steps (desktop only) */}

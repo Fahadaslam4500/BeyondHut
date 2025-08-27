@@ -6,13 +6,13 @@ import Image from "next/image";
 
 export default function Testimonials_New() {
     return (
-        <section className="max-w-5xl mx-auto bg-white font-dm_serif p-5">
+        <section className="max-w-5xl mx-auto bg-white font-dm_serif p-5 overflow-hidden">
             {/* Heading */}
 
             <div className="flex flex-col justify-center items-center gap-2">
                 <p className="mt-2 text-[#516371] text-lg"> Testimonial </p>
 
-                <TextAnimate animation="blurInUp" by="character" as={'h2'} duration={0.8} className="text-center  text-3xl font-dm_serif  md:text-4xl font-medium text-[#1B1B1B]">
+                <TextAnimate animation="blurInUp" by="word" once={true} as={'h2'} duration={0.8} className="text-center  text-3xl font-dm_serif  md:text-4xl font-medium text-[#1B1B1B]">
                     Don’t take our words,
                 </TextAnimate>
 
