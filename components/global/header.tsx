@@ -87,7 +87,7 @@ function Header() {
                   {/* Get Started Button in Sheet */}
                   <div className="mt-6">
                     <Link href="/get-started">
-                      <Button className="w-full hover:scale-105 transition-transform duration-300 ease-in-out transform">
+                      <Button className="w-full hover:scale-105 bg-gradient-to-r from-[#9bdfff] to-[#a193ff] transition-transform duration-300 ease-in-out transform">
                         Get Started
                       </Button>
                     </Link>

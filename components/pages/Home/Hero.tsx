@@ -119,14 +119,6 @@ function HomeHero() {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>

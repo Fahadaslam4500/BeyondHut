@@ -117,7 +117,7 @@ const Footer = () => {
 
                     {/* Second Column - Links */}
                     <div className='col-span-1 md:col-span-2 self-start'>
-                        <h3 className="text-lg font-semibold mb-4 text-white font-dm_serif">Our Target Industry</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-white font-ibm_plex">Our Target Industry</h3>
                         <ul className="space-y-3">
                             {
                                 footerLinks1.map((link, i) => (
@@ -136,7 +136,7 @@ const Footer = () => {
 
                     {/* Third Column - Links */}
                     <div className='col-span-1 md:col-span-2 self-start'>
-                        <h3 className="text-lg font-semibold mb-4 text-white font-dm_serif">Target Organizations</h3>
+                        <h3 className="text-lg font-semibold mb-4 text-white font-ibm_plex">Target Organizations</h3>
                         <ul className="space-y-3">
                             {
                                 footerLinks2.map((link, i) => (
