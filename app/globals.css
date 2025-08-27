@@ -345,7 +345,7 @@
 /* Mobile override */
 @media (max-width: 768px) {
   .marquee-track {
-    animation-duration: 5s; /* faster on mobile */
+    animation-duration: 6s; /* faster on mobile */
   }
 }
 
