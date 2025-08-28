@@ -1,4 +1,5 @@
 import BlogsSection from '@/components/pages/Home/BlogsSections'
+import CostComparison from '@/components/pages/Home/CostComparison'
 import FourSteps from '@/components/pages/Home/FourSteps'
 import HomeHero from '@/components/pages/Home/Hero'
 import Logos_Sliding from '@/components/pages/Home/Logos_Sliding'
@@ -16,6 +17,7 @@ function Home() {
     <div className=''>
       <HomeHero />
       <ProfitableAgency />
+      <CostComparison/>
       <RolesSection />
       <Logos_Sliding />
       <Testimonials_New />
