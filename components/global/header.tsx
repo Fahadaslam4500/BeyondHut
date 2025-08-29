@@ -57,9 +57,12 @@ function Header() {
             <div className="hidden lg:flex justify-center items-center  gap-2">
               <UserButton />
               <Link href={'/get-started'} >
-                <Button size={'lg'} className="hover:scale-105 bg-primarylight rounded-full transition-transform duration-300 ease-in-out transform">
-                  Get Started
-                </Button>
+                <Button 
+                size="lg" 
+                className="hover:scale-105 bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] text-black rounded-full transition-transform duration-300 ease-in-out transform" >
+                Get Started
+              </Button>
+
               </Link>
             </div>
 

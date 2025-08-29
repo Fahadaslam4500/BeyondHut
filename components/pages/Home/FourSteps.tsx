@@ -34,7 +34,7 @@ export default function FourSteps() {
                 <TextAnimate animation="blurInUp" by="word" as={'h2'} duration={0.8} className="text-center text-3xl font-dm_serif md:text-4xl font-medium text-[#1B1B1B]">
                     How We Get You Started In Just 
                 </TextAnimate>
-                <h2 className="text-center my-3 mb-8 text-3xl font-dm_serif md:text-4xl font-bold text-gradient">4 Simple Steps.</h2>
+                <h2 className="text-center my-3 mb-8 text-3xl font-dm_serif md:text-4xl font-bold text-[#00B7EB]">4 Simple Steps.</h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 relative">
                     {steps.map((step, index) => (

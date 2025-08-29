@@ -78,11 +78,11 @@ const Footer = () => {
 
                         <div className='py-3 flex flex-col md:flex-row justify-start md:items-center gap-2 '>
                             <div className='flex justify-start items-center gap-1'>
-                                <div className='bg-[#00B7EB] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Phone strokeWidth={1} fill='white' color='white' width={20} /></div>
+                                <div className='bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Phone strokeWidth={1} fill='161C28' color='161C28' width={20} /></div>
                                 <p className='text-white font-light text-sm'>+44 7929 374500</p>
                             </div>
                            <div className='flex justify-start items-center gap-1'>
-                             <div className='bg-[#00B7EB] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Mail strokeWidth={2} color='white' width={20} /></div>
+                             <div className='bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Mail strokeWidth={2} fill='white' color='black' width={20} /></div>
                             <p className='text-white font-light text-sm'>info@beyondhut.com</p>
                            </div>
                         </div>
@@ -99,7 +99,7 @@ const Footer = () => {
                             />
                             <button
                                 type="submit"
-                                className="p-2 text-white transition-colors bg-[#00B7EB] hover:bg-[#2aa4c6] rounded-full"
+                                className="p-2 text-black transition-colors bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] hover:bg-[#2aa4c6] rounded-full"
                             >
                                 {loading ? <Loader2 className='animate-spin'/> : <ArrowRight className="h-7 w-7" />}
 
@@ -108,9 +108,9 @@ const Footer = () => {
                         {send && <div className='flex ms-3 gap-3 justify-start items-center'><Check className='w-6 h-6 text-white' strokeWidth={5} /><p className='text-[] font-normal text-gray-300'>Thanks for Subscribing</p></div>}
                         {/* social icons */}
                         <div className='flex justify-start items-center gap-2 mt-3'>
-                            <a href='https://www.facebook.com/share/1GnpWaB48q/' target='_blank'><div className='bg-[#00B7EB] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Facebook strokeWidth={1} fill='white' color='white' width={20} /></div></a>
-                            <a href="https://www.instagram.com/beyondhut?igsh=ZDgzOGJjdWMwdTQx" target='_blank'><div className='bg-[#00B7EB] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Instagram fill='white' stroke='#00B7EB' width={21} /></div></a>
-                            <a href="https://www.linkedin.com/company/beyondhut/" target='_blank'><div className='bg-[#00B7EB] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Linkedin fill='white' strokeWidth={1} color='white' width={20} /></div></a>
+                            <a href='https://www.facebook.com/share/1GnpWaB48q/' target='_blank'><div className='bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Facebook strokeWidth={1} fill='161C28' color='161C28' width={20} /></div></a>
+                            <a href="https://www.instagram.com/beyondhut?igsh=ZDgzOGJjdWMwdTQx" target='_blank'><div className='bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Instagram fill='white' stroke='#161C28' width={21} /></div></a>
+                            <a href="https://www.linkedin.com/company/beyondhut/" target='_blank'><div className='bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] p-3 rounded-full w-[45px] h-[45px] flex justify-center items-center hover:scale-105 transition-transform duration-200'><Linkedin fill='161C28' stroke='#white' width={20} /></div></a>
                         </div>
 
                     </div>
@@ -152,7 +152,9 @@ const Footer = () => {
 
                     <FadeInLeft distance={20} duration={1} once={false}>
 
-                        <p className='text-white font-dm_serifthin'>© 2025 Beyond Hut. Copyright and rights reserved</p>
+                    <p className="text-white font-dm_serifthin"> © 2025 Beyond Hut. All rights reserved. Designed & Developed by <a href="https://www.linkedin.com/company/natwic/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Natwic</a>
+                    </p>
+
                     </FadeInLeft>
 
                     <FadeInTop duration={1} once={false}>

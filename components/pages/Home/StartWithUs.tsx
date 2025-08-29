@@ -20,10 +20,12 @@ function StartWithUs() {
 
 
                         <div className='flex flex-row gap-3 justify-center items-center'>
-                            <Link href={'/get-started'}>
-                                <Button size={'lg'} className="bg-primary hover:scale-105 rounded-full text-lg  transition-transform duration-300 ease-in-out transform shadow-md p-3 px-8">
-                                    Book a discovery call
-                                </Button>
+                           <Link href={'/get-started'}>
+                            <Button 
+                                size="lg" 
+                                className="bg-gradient-to-r from-[#CFF0FF] to-[#D2CBFF] hover:scale-105 rounded-full text-lg text-black transition-transform duration-300 ease-in-out transform shadow-md p-3 px-8">
+                                Book a discovery call
+                            </Button>
                             </Link>
                         </div>
                     </div>
