@@ -227,11 +227,11 @@ export default function PricingCards() {
   const customPlan = plans[plans.length - 1];
 
   return (
-    <section className="container mx-auto px-4 py-12 max-2xl:min-h-[100vh] flex flex-col justify-center items-center">
+    <section className="container mx-auto px-4 py-3 max-2xl:min-h-[100vh] flex flex-col justify-center items-center">
       <h1 className="my-14 text-center text-3xl font-dm_serif md:text-4xl font-normal text-[#1B1B1B]">
         Pricing That Doesn’t Make You Think Twice.
       </h1>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-4">
         {standardPlans.map((plan, idx) => (
           <div
             key={idx}
@@ -276,7 +276,7 @@ export default function PricingCards() {
 
 
           <div className="md:w-full  md:mb-0 md:col-span-3">
-            <h3 className="text-xl font-ibm_plex">{customPlan.title}</h3>
+            <h3 className="text-xl font-ibm_plex md:-mb-3">{customPlan.title}</h3>
             <p className="my-3 font-bold text-3xl font-dm_serif tracking-wider">{customPlan.range}</p>
             <p className="text-sm text-gray-700 mt-3 mb-6">
               Ideal for: <br /> <span className="font-semibold my-2">{customPlan.idealFor}</span>
@@ -293,8 +293,8 @@ export default function PricingCards() {
           </ul>
         </div>
 
-        <Link href={'/get-started'}>
-          <button className="mt-auto md:w-full bg-white rounded-full font-medium py-2 px-6 hover:bg-opacity-70 transition hover:bg-black hover:text-white">
+        <Link href={'/get-started'} className="text-center mx-auto mt-4 md:w-[300px] w-full bg-white rounded-full font-medium py-2 px-6 hover:bg-opacity-70 transition hover:bg-black hover:text-white">
+          <button className="">
             {customPlan.button}
           </button>
         </Link>
