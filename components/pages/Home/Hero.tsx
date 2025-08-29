@@ -10,6 +10,7 @@ import React from 'react'
 function HomeHero() {
     return (
         <div className='relative'>
+             
             <div className='container '>
                 <div className=' min-h-[75vh]  flex flex-col justify-center gap-10 2xl:gap-12 items-center  md:rounded-[50px] rounded-[30px]'>
 

@@ -323,33 +323,6 @@
 
 
 
-.marquee-container {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.marquee-track {
-  display: flex;
-  animation: scroll-left 10s linear infinite; /* desktop default */
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-150%); /* adjust depending on clone width */
-  }
-}
-
-/* Mobile override */
-@media (max-width: 768px) {
-  .marquee-track {
-    animation-duration: 6s; /* faster on mobile */
-  }
-}
-
 
 
 

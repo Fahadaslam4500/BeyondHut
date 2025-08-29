@@ -24,12 +24,14 @@ export const footerLinks1 = [
 
 
 export const footerLinks2 = [
-  { name : "Start-Ups"},
-  { name : "Scale-Ups"},
-  { name : "SMBs"},
-  { name : "SMEs"},
-  { name : "Enterprise"},
-  { name : "Corporations"},
+  { name : "Estate Agents"},
+  { name : "Realtors"},
+  { name : "Private Landlords"},
+  { name : "Solo Estate Agents"},
+  { name : "Property Managers"},
+  { name : "Property Developers"},
+  { name : "Letting Agencies"},
+  { name : "Property Investment Companies"},
 ]
 
 
