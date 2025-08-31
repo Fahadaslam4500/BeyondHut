@@ -57,7 +57,7 @@ export default function FAQSection() {
       {/* CTA */}
       <p className="text-[#516371] text-lg mt-10">Still have questions? Get connected to our support team.</p>
      <Link href={'/get-started'}>
-      <Button className="mt-4 rounded-full px-6 bg-primary">Contact us</Button>
+      <Button className="mt-4 rounded-full px-6 bg-gradient-to-r from-[#9bdfff] to-[#a193ff] text-black ">Contact us</Button>
      </Link>
     </section>
   );

@@ -21,7 +21,7 @@ function CTAJobSeekers() {
 
                     <div className='flex flex-row gap-3 justify-center items-center'>
                     <Link href={'/application-form'}>
-                        <Button size={'lg'} className="bg-primarylight hover:scale-105 rounded-full text-lg  transition-transform duration-300 ease-in-out transform shadow-md p-6 px-12">
+                        <Button size={'lg'} className="bg-gradient-to-r from-[#9bdfff] to-[#a193ff] hover:scale-105 rounded-full text-black text-lg  transition-transform duration-300 ease-in-out transform shadow-md p-6 px-12">
                             Apply Now
                         </Button>
                     </Link>
